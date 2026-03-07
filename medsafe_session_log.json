@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2026-03-07 10:47:48",
+    "event": "side_effect_check",
+    "data": {
+      "medicines": [
+        "Warfarin",
+        "Aspirin"
+      ],
+      "age": 68,
+      "gender": "Male",
+      "symptom": "bleeding gums and bruising"
+    }
+  },
+  {
+    "timestamp": "2026-03-07 10:56:32",
+    "event": "risk_score",
+    "data": {
+      "age": 30,
+      "severity": "Low",
+      "medicines": [],
+      "conditions": [],
+      "percentage": 5.0,
+      "category": "Low"
+    }
+  },
+  {
+    "timestamp": "2026-03-07 10:56:50",
+    "event": "symptom_analysis",
+    "data": {
+      "symptom": "fever"
+    }
+  }
+]
